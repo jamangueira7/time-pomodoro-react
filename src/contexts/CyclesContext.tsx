@@ -130,7 +130,7 @@ export function CyclesContextProvider({ children }: CyclesContextProviderProps) 
 
   return (
     <CyclesContext.Provider value={{
-      cycles: cyclesState,
+      cycles,
       activeCycle,
       activeCycleId,
       amountSecondsPassed,
